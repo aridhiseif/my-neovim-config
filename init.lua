@@ -3,6 +3,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 require("seif")
+require("seif.map")
 print("hello world")
 require('feline').setup()
 require("nvim-tree").setup()

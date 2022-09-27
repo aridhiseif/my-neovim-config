@@ -1,2 +1,5 @@
-vim.g.onedark_dark_sidebar = false
-vim.api.nvim_command [[colorscheme onedark]]
+vim.g.tokyonight_transparent_sidebar = true
+vim.g.tokyonight_transparent = true
+vim.opt.background = "dark"
+
+vim.cmd("colorscheme neon")

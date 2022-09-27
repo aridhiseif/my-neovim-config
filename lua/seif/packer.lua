@@ -6,8 +6,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-  use 'folke/tokyonight.nvim' 
-  use 'feline-nvim/feline.nvim'
+  use 'folke/tokyonight.nvim'
+  use "rafamadriz/neon"
   use 'neovim/nvim-lspconfig'
   use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
   use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
@@ -23,6 +23,10 @@ return require('packer').startup(function(use)
   },
   tag = 'nightly' -- optional, updated every week. (see issue #1193)
 }
+
+  use {'feline-nvim/feline.nvim', config = function()
+        require 'statusline'
+end}
 
   use {
   'lewis6991/gitsigns.nvim',
