@@ -3,8 +3,8 @@ local opt = vim.opt
 opt.nu = true
 
 opt.expandtab = true
-opt.tabstop =4 
-opt.softtabstop = 4
+opt.tabstop =2 
+opt.softtabstop = 2
 opt.smartindent =true
 opt.showmatch = true
 opt.termguicolors = true

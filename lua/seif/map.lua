@@ -5,6 +5,6 @@ local km = vim.keymap
 km.set('n','te',':tabedit')
 km.set('n','tn',':tabnext')
 
-km.set('n','vb','<cmd>bn<CR>')
-km.set('n','f','<cmd>NvimTreeFocus<CR>')
-
+km.set('n','bn','<cmd>bn<CR>')
+km.set('n','fo','<cmd>NvimTreeFocus<CR>')
+km.set('n','bd','<cmd>bd<CR><cmd>bd<CR>')
